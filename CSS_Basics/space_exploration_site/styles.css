@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: #82a5ca;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+}
+
+#hero {
+    background-image: url("./images/Galaxy.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2f2f2f;
+    padding-bottom: 40px;
+}
+
+.apply-btn {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 700;
+    text-shadow: 1px 1px rgb(100, 100, 100);
+    padding: 6px 12px;
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+.apply-btn:hover {
+    background-color: aliceblue;
+    color: #2f2f2f;  
+}
+
+.explore-link {
+    border-bottom: 4px solid white;
+}
+
+#space-logo {
+    width: 100px;
+    padding: 0;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+
+    height: 10vh;
+    background-color: white;
+    text-align: center;
+}
