@@ -71,15 +71,32 @@
 
 // Error Constructor
 
-function checkUserName(userName){
-    if (userName){
-        console.log(userName);
+// function checkUserName(userName){
+//     if (userName){
+//         console.log(userName);
         
-    }
-    else {
-        throw new Error('No username provided')
-    }
-}
+//     }
+//     else {
+//         throw new Error('No username provided')
+//     }
+// }
 
-checkUserName()
+// checkUserName()
 
+// ==========================================================================
+
+// Arrow syntax for functions
+// const speedWarning = (limit, speed) =>{
+//  if (speed > limit) {
+//    return alert(`You are driving at ${speed} mph and that is ${speed - limit} mph over the limit`)
+//  }
+// }
+
+// alert(speedWarning(30, 40))
+
+
+const distanceTrav = [267, 345, 234, 190, 299]
+
+const toKm = distanceTrav.map(distance => Math.round(distance*1.6))
+
+console.log(toKm);
